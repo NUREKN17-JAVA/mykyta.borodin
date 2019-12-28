@@ -123,8 +123,8 @@ public class HsqlDbUserDaoTest extends DatabaseTestCase {
 	
 	private User CreateTestUserInstance(){
 		User user = new User();
-		user.setFirstName("Nikita");
-		user.setLastName("Borodin");
+		user.setFirstName("Yaroslav");
+		user.setLastName("Vodotyka");
 		Calendar calendar = Calendar.getInstance();
 		calendar.set(2000, 5, 21);
 		user.setDateOfBirth(calendar.getTime());

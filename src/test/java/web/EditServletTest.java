@@ -3,7 +3,7 @@ package web;
 import java.text.DateFormat;
 import java.util.Date;
 
-import nure.cs.vodotyka.usermanagment.User;
+import nure.cs.borodin.usermanagment.User;
 
 public class EditServletTest extends MockServletTestCase {
 
@@ -18,7 +18,7 @@ public class EditServletTest extends MockServletTestCase {
 		getMockUserDao().expect("UpdateUser", user);
 		
 		addRequestParameter("id", "1");
-		addRequestParameter("firstName", "Nikita");
+		addRequestParameter("firstName", "Yaroslav");
 		addRequestParameter("lastName", "Borodin");
 		addRequestParameter("date", DateFormat.getDateInstance().format(date));
 		addRequestParameter("okButton");
