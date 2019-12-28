@@ -1,4 +1,4 @@
-package nure.cs.vodotyka.usermanagment;
+package nure.cs.borodin.usermanagment;
 
 import java.time.LocalDate;
 import java.util.Calendar;
@@ -21,9 +21,9 @@ public class UserTest extends TestCase {
 	}
 
 	public void testGetFullName(){
-		user.setFirstName("Nikita");
-		user.setLastName("Borodin");
-		assertEquals("Nikita, Borodin", user.GetFullName());
+		user.setFirstName("Yaroslav");
+		user.setLastName("Vodotyka");
+		assertEquals("Yaroslav, Vodotyka", user.GetFullName());
 	}
 	
 	public void testGetAge(){
